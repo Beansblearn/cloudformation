@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudFormation template to create an S3 bucket named beans-s3-bucket-yaml
+
+Resources:
+  BeansS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: beans-s3-bucket-yaml
